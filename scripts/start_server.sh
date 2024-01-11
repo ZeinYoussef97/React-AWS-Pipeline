@@ -4,6 +4,4 @@
 cd /app
 
 # initial startup by running react-script "start", name process "marketing"
-npm run build
-
-serve -s build
+npm run start
