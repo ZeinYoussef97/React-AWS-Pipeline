@@ -8,7 +8,6 @@ function Header() {
                     <a href="/" class="text-sm font-semibold leading-6 text-gray-900">About Me</a>
                     <a href="experience" class="text-sm font-semibold leading-6 text-gray-900">Experience</a>
                     <a href="education" class="text-sm font-semibold leading-6 text-gray-900">Education</a>
-                    <a href="contact-me" class="text-sm font-semibold leading-6 text-gray-900">Contact Me</a>
                 </div>
             </nav>
         </div>
