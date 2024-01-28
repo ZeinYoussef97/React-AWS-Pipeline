@@ -2,7 +2,7 @@ import './App.css';
 import Header from './header/header';
 import AboutMe from './about-me/about-me';
 import Experience from './experience/experience';
-import Education from './education/education';
+import Projects from './projects/projects';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route index path="" element={<AboutMe />} />
           <Route path="experience" element={<Experience />} />
-          <Route path="education" element={<Education />} />
+          <Route path="projects" element={<Projects />} />
         </Routes>
       </BrowserRouter>
     </div>

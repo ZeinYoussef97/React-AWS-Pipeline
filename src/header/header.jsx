@@ -7,7 +7,7 @@ function Header() {
                 <div class="hidden lg:flex lg:gap-x-12">
                     <a href="/" class="text-sm font-semibold leading-6 text-gray-900">About Me</a>
                     <a href="experience" class="text-sm font-semibold leading-6 text-gray-900">Experience</a>
-                    <a href="education" class="text-sm font-semibold leading-6 text-gray-900">Education</a>
+                    <a href="projects" class="text-sm font-semibold leading-6 text-gray-900">Projects</a>
                 </div>
             </nav>
         </div>
