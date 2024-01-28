@@ -1,6 +1,7 @@
-import { ArrowDownIcon, BriefcaseIcon } from "../components/Icons";
+import { ArrowDownIcon, BriefcaseIcon, GraduationCapIcon } from "../components/Icons";
 import { JobDescription } from "../components/JobDescription";
 import { Role } from "../components/Role";
+import './experience.css';
 
 function Experience() {
     let resume = [
@@ -24,8 +25,19 @@ function Experience() {
         },
     ];
 
+    let education = [
+        {
+            company: 'Wayne State University',
+            title: `Bachelor's Degree, Computer Science`,
+            logo: 'wayne.png',
+            start: '2015',
+            end: '2019',
+            description: ``,
+          },
+    ]
+
     return (
-        <div className="relative bg-white page-margins">
+        <div className="relative bg-white experience-page-margins">
             {/* <h1 className="mb-10 text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
                 Zein Youssef
             </h1> */}
@@ -56,9 +68,18 @@ function Experience() {
                             ))}
                         </ol>
                         <button className="flex justify-center font-semibold text-sm w-full mt-6 transition hover:text-gray-500">
-                            <span>Download CV</span>
+                            <a href="resume.pdf" download>Download CV</a>
                             <ArrowDownIcon className="mt-1 h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
                         </button>
+                        <div className="lg:flex">
+                            <GraduationCapIcon className="h-6 w-6 flex-none" />
+                            <span className="ml-3 font-semibold text-sm self-center">Education</span>
+                        </div>
+                        <ol className="mt-6 space-y-4">
+                            {education.map((role) => (
+                                <Role role={role} />
+                            ))}
+                        </ol>
                     </div>
                 </div>
             </div>
