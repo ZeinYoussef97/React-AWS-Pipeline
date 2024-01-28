@@ -45,17 +45,17 @@ function AboutMe() {
                 </div>
                 </div>
                 <div className="px-6 lg:contents">
-                    <div className="mx-auto max-w-2xl pb-24 pt-16 sm:pb-32 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
+                    <div className="mx-auto max-w-2xl pt-16 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
                         <p className="text-base font-semibold leading-7 text-indigo-600">Software Engineer</p>
                         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Zein Youssef</h1>
                         <p className="mt-8">
-                            Hello, My name is Zein and I'm a Full Stack Software Engineer that has worked for large corporations
+                            Hello, my name is Zein. I'm a Full Stack Software Engineer that has worked for large corporations
                             like Amazon and Rocket Mortgage. I believe that as an Engineer it's very important to always be learning.
                             Even this website that you're on was a huge learning opportunity for me. It takes advantage of
                             Tailwind CSS for easy to use components and styling and is deployed to the web using AWS CodePipeline
                             to handle the automated deployment of changes to this app. I hope you enjoy your stay here!
                         </p>
-                        <ul className="mt-8" role="list">
+                        <ul className="mt-24" role="list">
                             <SocialLink href="https://github.com/ZeinYoussef97" icon={GitHubIcon}>
                             Follow on GitHub
                             </SocialLink>
