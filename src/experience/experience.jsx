@@ -44,7 +44,7 @@ function Experience() {
             <div className="flex justify-center mb-10">
                 <img
                     className="h-96 w-auto bg-gray-50"
-                    src="self-portrait2.jpg"
+                    src="suit-portrait.png"
                     alt=""
                 />
             </div>
